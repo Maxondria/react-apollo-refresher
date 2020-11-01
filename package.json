@@ -1,0 +1,23 @@
+{
+  "name": "react-apollo-test-drive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.11"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
